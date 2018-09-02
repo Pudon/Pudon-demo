@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>布局练习</title>
+    <style>
+        .container-wrap {
+            background: #555555;
+            height: 100%;
+            display: flex;
+            color: #ffffff;
+        }
+        .left-container {
+            height: 100%;
+            background: #000000;
+            flex: 1;
+        }
+        .middle-container {
+            height: 100%;
+            background: blue;
+            width: 200px;
+        }
+        .right-container {
+            height: 100%;
+            background: pink;
+            flex: 1;
+        }
+    </style>
+</head>
+<body style="height:100%">
+    <div class="container-wrap">
+        <div class="left-container">123</div>
+        <div class="middle-container">中间</div>
+        <div class="right-container">312</div>
+    </div>
+</body>
+</html>
