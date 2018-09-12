@@ -163,3 +163,14 @@ select {
 select::-ms-expand {
   display: none;
 }
+.header-wrap {
+  border: 1px solid #000;
+  text-align: center;
+}
+.header-wrap .img-bg {
+  background: rgba(0, 0, 0, 0.3);
+}
+.header-wrap .header-title {
+  color: #fff;
+  font-size: 46px;
+}
